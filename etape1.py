@@ -29,3 +29,4 @@ print(decode(encode(texte)) == texte)
 data = torch.tensor(encode(texte), dtype=torch.long)
 print(data.shape)
 print(data.dtype)
+
